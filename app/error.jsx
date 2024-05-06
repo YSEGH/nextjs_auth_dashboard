@@ -1,9 +1,13 @@
-"use client"
+"use client";
+import styles from "./error.module.css";
+
 const Error = () => {
   return (
     //The error layout
-    <div>Error</div>
-  )
-}
+    <div className={styles["error-page"]}>
+      <h4>An error has occurred</h4>
+    </div>
+  );
+};
 
-export default Error
+export default Error;
