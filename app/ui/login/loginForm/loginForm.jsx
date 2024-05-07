@@ -13,6 +13,13 @@ const LoginForm = () => {
       <input type="text" placeholder="Nom de compte" name="username" />
       <input type="password" placeholder="Mot de passe" name="password" />
       <button>Connexion</button>
+      <p>
+        Vous pouvez créer vos identifiants ou vous connecter avec les suivants :
+        <br />
+        <br />
+        Nom de compte: test <br />
+        Mot de passe: test
+      </p>
       <p className={styles["form-error"]}>{state && state}</p>
     </form>
   );
